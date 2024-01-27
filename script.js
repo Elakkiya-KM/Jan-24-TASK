@@ -1,46 +1,47 @@
 // Start the countdown
+const C = document.getElementById("countdown");
 setTimeout(function () {
-  console.log(10);
+ C.textContent = 10;
 
   // Continue the countdown
   setTimeout(function () {
-    console.log(9);
+   C.textContent = 9;
 
     // Continue the countdown
     setTimeout(function () {
-      console.log(8);
+     C.textContent = 8;
 
       // Continue the countdown
       setTimeout(function () {
-        console.log(7);
+       C.textContent = 7;
 
         // Continue the countdown
         setTimeout(function () {
-          console.log(6);
+        C.textContent = 6;
 
           // Continue the countdown
           setTimeout(function () {
-            console.log(5);
+          C.textContent = 5;
 
             // Continue the countdown
             setTimeout(function () {
-              console.log(4);
+             C.textContent = 4;
 
               // Continue the countdown
               setTimeout(function () {
-                console.log(3);
+              C.textContent = 3;
 
                 // Continue the countdown
                 setTimeout(function () {
-                  console.log(2);
+                C.textContent = 2;
 
                   // Continue the countdown
                   setTimeout(function () {
-                    console.log(1);
+                  C.textContent = 1;
 
                     // Display "Happy Independence Day"
                     setTimeout(function () {
-                      console.log("Happy Independence Day");
+                      C.textContent = "Happy Independence Day";
                     }, 1000);
                   }, 1000);
                 }, 1000);
